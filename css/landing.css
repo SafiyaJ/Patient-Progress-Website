@@ -11,6 +11,10 @@ button {
 /* global classes end here */
 
 /* nav bar starts here */
+body {
+ background-color: #A9DDDA
+}
+
 .nav-link {
   text-transform: uppercase;
   font: bolder 16px/120% "Comfortaa", cursive;
