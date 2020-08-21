@@ -14,7 +14,7 @@ button {
 .nav-link {
   text-transform: uppercase;
   font: bolder 16px/120% "Comfortaa", cursive;
-  /* color: #3F3D56; */
+  color: #3F3D56;
 }
 
 .nav-item {
