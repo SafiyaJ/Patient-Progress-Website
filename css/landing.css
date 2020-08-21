@@ -1,3 +1,7 @@
+/* import css variables*/
+
+@import url(./_variables.css);
+
 /* nav bar starts here */
 .nav-link {
   text-transform: uppercase;
