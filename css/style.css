@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* global classes start here*/
+button {
+  outline: none !important;
+  border: none !important;
+}
+/* global classes end here */

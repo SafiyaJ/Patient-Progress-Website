@@ -1,24 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* global classes start here*/
-button {
-    outline: none!important;
-    border: none!important;
-}
-/* global classes end here */
-
 /* nav bar starts here */
-body {
- background-color: #A9DDDA
-}
-
 .nav-link {
   text-transform: uppercase;
-  font: bolder 16px/120% "Comfortaa", cursive;
-  color: #3F3D56;
+  font: bolder 14px/120% var(--comfortaa);
+  color: var(--purple);
 }
 
 .nav-item {
