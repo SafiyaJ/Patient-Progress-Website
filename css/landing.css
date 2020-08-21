@@ -3,9 +3,6 @@
 @import url(./_variables.css);
 
 /* nav bar starts here */
-body{
-  background-color: var(--teal-light);
-}
 
 
 .header_area .main-menu .navbar .navbar-brand {
@@ -14,6 +11,7 @@ body{
 
 .header_area .main-menu .navbar {
   padding: 1rem 1rem;
+  background-color: var(--teal-light);
 }
 
 .header_area .main-menu .nav-item .nav-link {
@@ -45,47 +43,36 @@ body{
   color: var(--purple);
 }*/
 
-.</*nav-item {
+/*nav-item {
   padding: 1em;
 }
 */
-/* nav bar ends here */
+/* nav bar ends background-color: var(--teal-light);here */
 
 /*  Banner Area */
-.site-main .site-banner .container .row .col-md-12 {
-  background: var(--teal-light);
+
+.site-main .site-banner{
+  height: 69.2vh;
+  background-color: var(--teal-light);
 }
 
-/*.site-main .site-banner .site-title h3{
-  padding-top: 35%;
-  font-weight: 500;
+
+
+
+.site-main .site-banner .site-title h3 h4{
+  margin-top: 100;
 }
 
-.site-main .site-banner .site-title h3::after{
-  content: "";
-  height: 2px;
-  width: 18vw;
-  background: black;
-  display: inline-block;
-  margin-left: 5%;
-  transform: translateY(-10px);
-}
-
-.site-main .site-banner .site-title h1{
-  font-size: 5rem;
-}
-
-.site-main .site-banner .site-title h4{
-  font-size: 1.5rem;
-}
-
-.site-main .site-banner .banner-image > img{
-  padding: 7rem 0;
-  width: 90rem;
-}
 
 .title-text{
-  font: normal bold 50px/72px var(--roboto);
+  font: normal bold 40px/40px var(--comfortaa);
+  color: var(--purple-dark);
 }
-*/
+
+.regular-text{
+  font: normal light 24px/5px var(--roboto);
+  color: var(--purple-dark);
+}
+
+
 /*  End Banner Area */
