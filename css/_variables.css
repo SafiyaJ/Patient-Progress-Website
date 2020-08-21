@@ -1,0 +1,11 @@
+:root {
+  --teal-dark: #32afa9;
+  --teal-light: #a9ddda;
+  --purple: #3f3d56;
+  --white: #fdfdfd;
+  --black: #3333;
+
+  /* font family vars */
+  --roboto: "Roboto", sans-serif;
+  --comfortaa: "Comfortaa", cursive;
+}
