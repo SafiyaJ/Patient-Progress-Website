@@ -6,7 +6,7 @@
 
 html, body {
   width: 100%;
-  /* background-color: var(--teal-light); */
+  background-color: var(--teal-light);
 }
 
 /* global classes start here*/
