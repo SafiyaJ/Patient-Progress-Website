@@ -16,7 +16,7 @@
   font: bolder 14px/120% var(--comfortaa);
   text-transform: uppercase;
   padding: 1.7rem;
-  color: var(--purple-dark);
+  color: var(--purple);
 }
 
 .header_area .main-menu .navbar-nav .active a {
