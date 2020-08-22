@@ -6,7 +6,7 @@
 
 html, body {
   width: 100%;
-  background-color: var(--teal-light);
+  /* background-color: var(--teal-light); */
 }
 
 /* global classes start here*/
@@ -17,13 +17,15 @@ button {
 }
 
 h1 {
-  font: normal bold 55px/120% var(--comfortaa);
+  font: normal bold 50px/120% var(--comfortaa);
   color: var(--purple);
+  margin: 0;
 }
 
 p {
   font: normal 300 24px/140% var(--roboto);
   color: var(--purple);
+  padding: 0.4em 0;
 }
 /* global classes end here */
 
