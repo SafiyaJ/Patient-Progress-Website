@@ -35,13 +35,13 @@
 
 /*  End Navigation */
 
-/*.nav-link {
+.nav-link {
   text-transform: uppercase;
   font: bolder 14px/120% var(--comfortaa);
   color: var(--purple);
-}*/
+}
 
-.</*nav-item {
+nav-item {
   padding: 1em;
 }
 
