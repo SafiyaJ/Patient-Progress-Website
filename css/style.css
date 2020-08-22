@@ -4,9 +4,45 @@
   box-sizing: border-box;
 }
 
+html, body {
+  width: 100%;
+  /* background-color: var(--teal-light); */
+}
+
 /* global classes start here*/
 button {
   outline: none !important;
-  border: none !important;
+  box-shadow: none !important;
+  border: 2px solid var(--teal-dark);
+}
+
+h1 {
+  font: normal bold 50px/120% var(--comfortaa);
+  color: var(--purple);
+  margin: 0;
+}
+
+p {
+  font: normal 300 24px/140% var(--roboto);
+  color: var(--purple);
+  padding: 0.4em 0;
 }
 /* global classes end here */
+
+
+/* common classes start */
+
+.btn a {
+  background-color: var(--teal-dark);
+  color: var(--white);
+  padding: 0.8rem 2.2rem;
+  border-radius: 10px;
+  font: normal bold 18px/120% var(--comfortaa);
+}
+
+.btn a:hover {
+  text-decoration: none;
+  filter: opacity(0.8);
+}
+
+/*  common classes end */

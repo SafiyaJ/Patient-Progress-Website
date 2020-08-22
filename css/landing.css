@@ -44,5 +44,20 @@
 .</*nav-item {
   padding: 1em;
 }
-*/
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.column {
+  padding: 6em 0 0 0;
+}
+
+.banner-img {
+  padding: 4em 0 0;
+}
+
+.container .column .col-sm-12 {
+  padding: 0 13em
+}
 /* nav bar ends here */
