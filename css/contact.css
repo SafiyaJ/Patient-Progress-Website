@@ -1,12 +1,4 @@
-/* import css variables*/
-
 @import url(./_variables.css);
-
-
-html, body {
-  width: 100%;
-  background-color: var(--teal-light);
-}
 
 /* nav bar starts here */
 
@@ -48,17 +40,3 @@ html, body {
 }
 
 /*  End Navigation */
-
-/* Banner starts here */
-.column {
-  padding: 6em 0 0 0;
-}
-
-.banner-img {
-  padding: 4em 0 0;
-}
-
-.container .column .col-sm-12 {
-  padding: 0
-}
-/* Banner ends here */
