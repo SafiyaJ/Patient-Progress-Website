@@ -5,7 +5,8 @@
 /* nav bar starts here */
 
 .header_area .main-menu .navbar .navbar-brand {
-  padding: 0 0rem 0 2.5rem;
+  padding: 0 1.7rem;
+  margin: 0;
 }
 
 .header_area .main-menu .navbar {
@@ -15,7 +16,6 @@
 .header_area .main-menu .nav-item .nav-link {
   font: bolder 14px/120% var(--comfortaa);
   text-transform: uppercase;
-  padding: 1.7rem;
   color: var(--purple);
 }
 
@@ -33,15 +33,7 @@
   background-clip: text;
 }
 
-/*  End Navigation */
-
-.nav-link {
-  text-transform: uppercase;
-  font: bolder 14px/120% var(--comfortaa);
-  color: var(--purple);
-}
-
-.nav-item {
+.header_area .main-menu .nav-item  {
   padding: 1em;
 }
 
@@ -49,6 +41,9 @@
   border: none !important;
 }
 
+/*  End Navigation */
+
+/* Banner starts here */
 .column {
   padding: 6em 0 0 0;
 }
@@ -60,4 +55,4 @@
 .container .column .col-sm-12 {
   padding: 0
 }
-/* nav bar ends here */
+/* Banner ends here */
