@@ -50,7 +50,7 @@ p {
 }
 
 .page-para {
-  font: normal 18px/120% var(--roboto);
+  font: normal lighter 18px/140% var(--roboto);
 }
 
 /*  common classes end */
