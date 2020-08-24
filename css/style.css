@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+/* import css variables*/
+
+@import url(./_variables.css);
 
 /* global classes start here*/
 button {
@@ -18,8 +21,13 @@ h1 {
   margin: 0;
 }
 
+h3 {
+  font: normal bold 40px/120% var(--comfortaa);
+  color: var(--purple);
+}
+
 p {
-  font: normal 300 24px/140% var(--roboto);
+  font: normal lighter 24px/140% var(--roboto);
   color: var(--purple);
   padding: 0.4em 0;
 }
@@ -39,11 +47,6 @@ p {
 .btn a:hover {
   text-decoration: none;
   filter: opacity(0.8);
-}
-
-.page-title {
-  font: normal bold 45px/120% var(--comfortaa);
-  color: var(--purple);
 }
 
 .page-para {
