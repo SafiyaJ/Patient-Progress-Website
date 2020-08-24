@@ -31,10 +31,66 @@ p {
   color: var(--purple);
   padding: 0.4em 0;
 }
+
+a{ 
+  text-decoration: none;
+  outline: none;
+}
+
+
+footer {
+  padding: 2em;
+}
+
+
 /* global classes end here */
 
-
 /* common classes start */
+
+/* start Nav CSS */
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 1.7rem;
+  margin: 0;
+}
+
+.header_area .main-menu .navbar {
+  padding: 1rem 1rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font: bolder 14px/120% var(--comfortaa);
+  text-transform: uppercase;
+  color: var(--purple);
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--teal-dark);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--teal-dark);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .nav-item  {
+  padding: 1em;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+/* End nav css */
+
+.btn {
+  padding: 0;
+}
 
 .btn a {
   background-color: var(--teal-dark);
@@ -51,6 +107,36 @@ p {
 
 .page-para {
   font: normal lighter 18px/140% var(--roboto);
+  padding: 0;
+  margin: 0;
+}
+
+.socials {
+  padding: 1em 0.5em;
+  /* background-color: violet; */
+}
+
+.fa {
+  padding: 0.6em;
+  /* font-size: 2em; */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: var(--purple);
+  background-color: var(--teal-light);
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: var(--white);
+  outline: none;
+  text-decoration: none;
+}
+
+.email a{
+  text-decoration: underline;
+  font: normal 14px/120% var(--comfortaa);
+  color: var(--purple);
 }
 
 /*  common classes end */
