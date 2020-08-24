@@ -41,4 +41,13 @@ p {
   filter: opacity(0.8);
 }
 
+.page-title {
+  font: normal bold 45px/120% var(--comfortaa);
+  color: var(--purple);
+}
+
+.page-para {
+  font: normal 18px/120% var(--roboto);
+}
+
 /*  common classes end */
