@@ -2,3 +2,29 @@
 
 @import url(./_variables.css);
 
+html,
+body {
+  width: 100%;
+  /* background-color: var(--teal-light); */
+}
+
+/* Main content starts here */
+
+main {
+  padding: 4em 4em;
+  /* background: var(--teal-dark); */
+}
+
+main .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* background: var(--teal-light); */
+}
+
+main .row .col-lg-4 {
+  /* background-color: pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
