@@ -62,3 +62,11 @@ html, body {
   padding: 0
 }
 /* Banner ends here */
+
+/* Bottom Nav */
+
+.bottom-nav{
+  background-color: var(--white);
+  width: 100vw;
+  height: auto;
+}
