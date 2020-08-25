@@ -42,6 +42,13 @@ footer {
   padding: 2em;
 }
 
+h6 {
+  font: normal lighter 14px/140% var(--roboto);
+  color: #333;
+  padding: 1em;
+  margin: 0;
+}
+
 
 /* global classes end here */
 
