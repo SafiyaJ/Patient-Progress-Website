@@ -9,6 +9,11 @@
 @import url(./_variables.css);
 
 /* global classes start here*/
+main {
+  padding: 4em 4em;
+  /* background: var(--teal-dark); */
+}
+
 button {
   outline: none !important;
   box-shadow: none !important;
@@ -20,6 +25,12 @@ h1 {
   color: var(--purple);
   margin: 0;
   padding: 0.4em 0;
+}
+
+h2 {
+  font: normal 600 27px/120% var(--comfortaa);
+  color: var(--purple);
+  margin: 0;
 }
 
 h3 {
@@ -45,6 +56,10 @@ h4 {
   color: var(--purple);
   margin: 0;
 }
+
+h5 {
+  font: normal lighter 20px/140% var(--roboto);
+} 
 
 footer {
   padding: 2em;
