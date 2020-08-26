@@ -1,0 +1,54 @@
+@import url(./_variables.css);
+
+/* nav bar starts here */
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 1.7rem;
+  margin: 0;
+}
+
+.header_area .main-menu .navbar {
+  padding: 1rem 1rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font: bolder 14px/120% var(--comfortaa);
+  text-transform: uppercase;
+  color: var(--purple);
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--teal-dark);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--teal-dark);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .nav-item {
+  padding: 1em;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+/*  End Navigation */
+
+.features-container{
+    background-color: var(--teal-dark);
+    display: flexbox;
+}
+
+/*  Imgs   */
+
+.features-img {
+    max-width:70%;
+    height:auto;
+}
