@@ -41,7 +41,7 @@
 
 /*  End Navigation */
 
-.features-container{
+.site-main .site-section .features-container{
     background-color: var(--teal-dark);
     display: flexbox;
 }
