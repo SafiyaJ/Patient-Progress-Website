@@ -11,7 +11,7 @@ body {
 /* Main content starts here */
 
 main {
-  padding: 4em 4em;
+  padding: 2em 2em;
   /* background: var(--teal-dark); */
 }
 
@@ -19,14 +19,24 @@ main .row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+  padding: 0
   /* background: var(--teal-light); */
 }
 
-main .row .col-lg-4 {
+main .row .col-lg-3 {
   /* background-color: pink; */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0;
+}
+
+main .row .col-lg-7 {
+  /* background-color: salmon; */
+  padding: 0;
+  
 }
 
 .banner-img {
