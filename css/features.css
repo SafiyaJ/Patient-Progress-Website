@@ -41,9 +41,19 @@
 
 /*  End Navigation */
 
+<<<<<<< Updated upstream
 .site-main .site-section .features-container{
     background-color: var(--teal-dark);
     display: flexbox;
+=======
+.features-container{
+    background-color: var(--teal-light);
+    max-width: auto;
+    max-height: 30vh;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: 50% 50%;
+>>>>>>> Stashed changes
 }
 
 /*  Imgs   */
