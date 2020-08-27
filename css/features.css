@@ -41,9 +41,8 @@
 
 /*  End Navigation */
 
-.site-main .features-container{
+.site-main .container .row{
     background-color: var(--teal-dark);
-    display: flexbox;
 }
 
 /*  Imgs   */
