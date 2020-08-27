@@ -10,7 +10,7 @@ body {
 .main .column .row {
   background-color: #e3f3f2;
   position: relative;
-  margin: 4em 0 2em 0;
+  margin: 5em 0 10em 0;
 }
 
 .main .column .row:nth-child(3) {
