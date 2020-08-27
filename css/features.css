@@ -48,15 +48,33 @@ body {
 
 /*  End Navigation */
 
-.site-main .container .row{
-    background-color: var(--teal-dark);
+.site-main .container-fluid .row{
+    background-color: var(--teal-light);
+    width: 100vw;
     position: relative;
-    margin: 4em 0 2em 0;
+    margin-top: 4em;
 }
+
+.site-main .container-fluid .row .col-lg-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-main .container-fluid .row .col-lg-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 /*  Imgs   */
 
-.features-img {
+.site-main .container-fluid .row .features-img {
     max-width:70%;
     height:auto;
+    position: relative;
+    margin-top: -40%;
+    padding-bottom: 3em;
 }

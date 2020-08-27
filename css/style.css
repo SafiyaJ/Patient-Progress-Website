@@ -26,6 +26,11 @@ h3 {
   color: var(--purple);
 }
 
+h2 {
+  font: normal bold 28px/120% var(--comfortaa);
+  color: var(--purple);
+}
+
 p {
   font: normal lighter 24px/140% var(--roboto);
   color: var(--purple);
