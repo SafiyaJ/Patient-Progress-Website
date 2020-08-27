@@ -36,6 +36,7 @@ h2 {
 h3 {
   font: normal bold 40px/120% var(--comfortaa);
   color: var(--purple);
+  margin: 0;
 }
 
 p {
