@@ -9,18 +9,17 @@ body {
 }
 
 /* Main content starts here */
-
+/* 
 main {
   padding: 2em 2em;
-  /* background: var(--teal-dark); */
-}
+} */
 
 main .row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 0
+  padding: 0;
   /* background: var(--teal-light); */
 }
 
@@ -36,10 +35,16 @@ main .row .col-lg-3 {
 main .row .col-lg-7 {
   /* background-color: salmon; */
   padding: 0;
-  
 }
 
 .banner-img {
-  max-width:100%;
-  height:auto;
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 578px) {
+  main .row .col-lg-3 {
+    margin: 3em 0;
+}
+
 }
