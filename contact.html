@@ -85,36 +85,43 @@
           <p>Feel free to drop us a line</p>
           <!--Form-->
           <div class="container2">
-            <form action="action_page.php">
+            <form  action=”mailto:patient.progress@outlook.com"
+             method=”POST”
+             enctype=”multipart/form-data”
+             name=”EmailForm”
+             class="needs-validation" novalidate>
               <label for="fname">Full Name</label>
               <input
                 type="text"
                 id="fname"
                 name="firstname"
+                class="form-control"
                 placeholder="Your full name.."
+                required
               />
+                <!--<div class="valid-feedback">
+                  Looks good!
+                </div> -->
 
               <label for="email">Email</label>
               <input
                 type="email"
                 id="email"
                 name="email"
+                class="form-control"
                 placeholder="Your email.."
+                required
               />
 
-              <!--<label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-              </select>
-            -->
+
               <label for="subject">Subject</label>
               <textarea
                 id="subject"
                 name="subject"
                 placeholder="Write something.."
+                class="form-control"
                 style="height: 200px"
+                required
               ></textarea>
 
               <input type="submit" value="Send" />
@@ -132,6 +139,27 @@
         </div>
       </div>
     </div>
+
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+      </script>
     <!------------------------------------------End Of Contact Us Form------------------------------------------------>
 
     <main></main>
