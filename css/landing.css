@@ -56,6 +56,7 @@ html, body {
 
 .banner-img {
   padding: 4em 0 0;
+  max-width: 100%;
 }
 
 .container .column .col-sm-12 {
