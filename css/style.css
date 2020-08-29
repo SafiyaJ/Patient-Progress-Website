@@ -8,6 +8,20 @@
 
 @import url(/css/_variables.css);
 
+:root {
+  --teal-dark: #32afa9;
+  --teal-light: #a9ddda;
+  --purp: #3f3d56;
+  --purple-light: #9693BE;
+  --white: #fdfdfd;
+  --black: #3333;
+  --grey: #333;
+
+  /* font family vars */
+  --roboto: "Roboto", sans-serif;
+  --comfortaa: "Comfortaa", cursive;
+}
+
 /* global classes start here*/
 main {
   padding: 4em 4em;
