@@ -6,7 +6,7 @@
 
 /* import css variables*/
 
-@import url(./_variables.css);
+@import url(/css/_variables.css);
 
 /* global classes start here*/
 main {
