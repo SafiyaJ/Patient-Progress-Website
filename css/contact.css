@@ -14,7 +14,7 @@
 .header_area .main-menu .nav-item .nav-link {
   font: bolder 14px/120% var(--comfortaa);
   text-transform: uppercase;
-  color: var(--purple);
+  color: var(--purp);
 }
 
 .header_area .main-menu .navbar-nav .active a {
