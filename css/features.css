@@ -94,5 +94,33 @@ body {
 
 
 @media only screen and (max-width: 576px) {
-  
+
+
+  .features-heading{
+    padding-bottom: 20%;
+  }
+  .row{
+    position: relative;
+    padding-top: 30%; 
+    margin-top:20%;
+  }
+
+  img{
+    position: relative;
+    margin-top: -40%;
+    align-items: center;
+  }
+
+  .tag-line{
+    position: absolute;
+    bottom:25%; 
+    text-align: center;
+  }
+
+  .description{
+    position: absolute;
+    bottom:5%; 
+    align-self: center;
+    text-align: justify;
+  }
 }
