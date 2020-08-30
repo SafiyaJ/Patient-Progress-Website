@@ -49,6 +49,10 @@ body {
   padding: 13em 0;
 }
 
+h5{
+  padding: 5%;
+}
+
 .main .column .row .col-lg-3 img {
   z-index: 10;
   position: absolute;
@@ -97,13 +101,14 @@ body {
 
 
   .features-heading{
-    padding-bottom: 20%;
+    padding-bottom: 30%;
   }
   .row{
     position: relative;
     padding-top: 30%; 
     padding-bottom:20%;
     margin-top:20%;
+    align-items: center;
   }
 
   img{
@@ -122,6 +127,11 @@ body {
     position: absolute;
     bottom:8%; 
     align-self: center;
-    text-align: justify;
+    text-align: center;
+  }
+
+  h5{
+    padding-right: 4%;
+    padding-left: 4%;
   }
 }
