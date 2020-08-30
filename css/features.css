@@ -102,6 +102,7 @@ body {
   .row{
     position: relative;
     padding-top: 30%; 
+    padding-bottom:20%;
     margin-top:20%;
   }
 
@@ -113,13 +114,13 @@ body {
 
   .tag-line{
     position: absolute;
-    bottom:25%; 
+    bottom:30%; 
     text-align: center;
   }
 
   .description{
     position: absolute;
-    bottom:5%; 
+    bottom:8%; 
     align-self: center;
     text-align: justify;
   }
