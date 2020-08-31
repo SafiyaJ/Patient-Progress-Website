@@ -222,6 +222,17 @@ h6 {
   color: var(--purp);
 }
 
+.header_area .main-menu .navbar {
+  padding: 1rem 1rem;
+  /* background-color: salmon; */
+  text-align: right;
+  border: 2px 
+}
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 0.5rem;
+}
+
 /*  common classes end */
 
 @media only screen and (max-width: 576px) {
@@ -316,24 +327,12 @@ h6 {
   }
 
   .header_area .main-menu .navbar .navbar-brand {
-    padding: 0 1rem;
+    padding: 0 0.5rem;
   }
   
-  .header_area .main-menu .navbar {
-    padding: 1rem 1rem;
-    /* background-color: salmon; */
-    text-align: right;
-    border: 2px 
-  }
-
   .header_area .main-menu .navbar .navbar-toggler-icon {
     border-color: var(--purp);
   }
-  /* .header_area .main-menu .navbar .collapse .navbar-nav{
-    border-left: 1px solid var(--grey);
-    border-right: 1px solid var(--grey);
-    border-bottom: 1px solid var(--grey);
-  } */
 
   .header_area .main-menu .nav-item .nav-link {
     font: bolder 12px/120% var(--comfortaa);
