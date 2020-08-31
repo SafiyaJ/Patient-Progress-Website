@@ -8,7 +8,7 @@
 
 @import url(/css/_variables.css);
 
-:root {
+/* :root {
   --teal-dark: #32afa9;
   --teal-light: #a9ddda;
   --purp: #3f3d56;
@@ -17,10 +17,9 @@
   --black: #3333;
   --grey: #333;
 
-  /* font family vars */
   --roboto: "Roboto", sans-serif;
   --comfortaa: "Comfortaa", cursive;
-}
+} */
 
 /* global classes start here*/
 main {
@@ -235,7 +234,7 @@ h6 {
 
 /*  common classes end */
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
   main {
     padding: 2em 4em;
     /* background: var(--teal-dark); */
