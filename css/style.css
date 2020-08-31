@@ -42,13 +42,13 @@ h1 {
 }
 
 h2 {
-  font: normal 600 27px/120% var(--comfortaa);
+  font: normal 600 40px/120% var(--comfortaa);
   color: var(--purp);
   margin: 0;
 }
 
 h3 {
-  font: normal bold 40px/120% var(--comfortaa);
+  font: normal bold 30px/120% var(--comfortaa);
   color: var(--purp);
   margin: 0;
 }
@@ -66,14 +66,14 @@ a{
 }
 
 h4 {
-  font: normal bold 22px/120% var(--comfortaa);
-  text-transform: uppercase;
+  font: normal bold 26px/120% var(--comfortaa);
   color: var(--purp);
   margin: 0;
 }
 
 h5 {
   font: normal lighter 20px/140% var(--roboto);
+  margin: 0
 } 
 
 footer {
@@ -248,10 +248,11 @@ h6 {
   h1 {
     font: normal bold 30px/120% var(--comfortaa);
     padding: 0.4em 0;
+    margin: 0
   }
   
   h2 {
-    font: normal 600 27px/120% var(--comfortaa);
+    font: normal 600 26px/120% var(--comfortaa);
     color: var(--purp);
     margin: 0;
   }
@@ -275,6 +276,7 @@ h6 {
   
   h5 {
     font: normal lighter 16px/140% var(--roboto);
+    margin: 0
   } 
   
   footer {
