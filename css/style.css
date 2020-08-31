@@ -5,6 +5,9 @@
 }
 
 /* css variables*/
+
+@import url(/css/_variables.css);
+
 :root {
   --teal-dark: #32afa9;
   --teal-light: #a9ddda;
